@@ -10,7 +10,7 @@
 for i in range(1,6):
     print("@")
 
-#Ejemplo 2 crear un programa que imprima los numeros del 1 al 5 y los sume y que al final imprima la suma 
+#Ejemplo 2 crear un programa que imprima los numeros del 1 al 5 y los sume y que al final imprima la suma.
 
 suma=0
 
