@@ -11,3 +11,5 @@ while respuesta.lower() == "si":
     precio_neto = iva + precio_art
     print(f"A pagar (con IVA): {precio_neto:.2f}")
     respuesta = input("¿Desea realizar el proceso nuevamente? (si/no): ")
+
+    x=33
