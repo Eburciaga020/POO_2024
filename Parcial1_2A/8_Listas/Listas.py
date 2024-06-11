@@ -11,7 +11,9 @@ duplicados
 
 """
 
-# Ejemplo 1 Crea un lista con valores numericos enteros e imprimir la lista 
+"""
+Ejemplo 1 Crea un lista con valores numericos enteros e imprimir la lista 
+"""
 
 numeros=[23,34]
 print(numeros)
@@ -54,3 +56,32 @@ while i<len(palabras):
 
 if noencontro:
  print(f"No se encontro la palabra dentro de la lista")
+
+"""
+Ejemplo 3 Lista multilinia o multidimensional (matriz) para crear una agenda
+telefonica
+"""
+
+agenda=[
+    ["Carlos",6181234567],
+    ["Fernando",6182334567],
+    ["Matias",6691112233],
+    ["Juan Polainas",6182332345]
+]
+
+print(agenda)
+
+for i in agenda:
+   print(f"{agenda.index(i)+1}.-{i}")
+
+"""
+Ejemplo 4 Crear un programa que permita gestionar
+(Administrar) peliculas, colocar un menu de opciones para
+agregar, remover, consultar peliculas
+
+NOTAS
+1.Utilizar funciones y mandar llamar desde otro archivo
+2.Utilizar listas para almacenar los nombres de peliculas 
+"""
+
+def insertarPeliculas()
