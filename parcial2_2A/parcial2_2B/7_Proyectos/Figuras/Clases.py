@@ -39,7 +39,7 @@ class Circulo(Figura):
         return 3.14 * self.__radio ** 2
 
     def getInfo(self):
-        print(f"Radio {self.__radio}, \nArea: {self.calcular__area()}")
+        print(f"Radio {self.__radio}, \nArea: {self.calcular_area()}")
 
 class Triangulo(Figura):
     def __init__(self, altura, base):
